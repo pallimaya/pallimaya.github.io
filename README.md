@@ -7,20 +7,34 @@ no build step, no dependencies, no backend. Hosted free on GitHub Pages.
 
 ---
 
-## Before you go live: set your WhatsApp number
+## WhatsApp number
 
-Every "Chat on WhatsApp", purchase and form button on the site uses **one** setting.
+The live number is **+91 7439689326**, set once in `config.js` as `917439689326`
+(country code first, digits only).
 
-1. Open `config.js`
-2. Replace `91XXXXXXXXXX` with your full number, country code first, digits only
-   — for example `919876543210`
-3. Commit the change
+Every "Chat on WhatsApp" button, chatbot option, purchase form and enquiry form reads that
+one setting. To change it, edit `config.js` and commit — nothing else needs touching.
 
-Until you do this, the buttons show a reminder message instead of opening WhatsApp.
-The number is never printed as text anywhere on the site; it only appears inside the
-WhatsApp link.
+The number is never printed as text on any page. It only appears inside the WhatsApp link
+target, which is unavoidable for a direct `wa.me` link.
 
 `config.js` also holds the YouTube channel link and the UPI payment details.
+
+---
+
+## Delivery promise
+
+The site states that the PDF is delivered within **30 minutes** of payment confirmation.
+That wording appears on `delivery.html`, `faq.html`, `index.html`, `purchase.html` and both
+course detail pages — change all of them together if the promise ever changes.
+
+---
+
+## Course syllabus
+
+The course detail pages deliberately do **not** carry a topic-by-topic syllabus. They show
+the course overview, the learning outcomes from the poster, requirements, and
+format/delivery details only. Add a topics section later once the PDFs are final.
 
 ---
 

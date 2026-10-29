@@ -10,7 +10,7 @@
    ============================================================ */
 
 window.PALLIMAYA = {
-  whatsapp: "91XXXXXXXXXX",          // <-- REPLACE THIS with your number
+  whatsapp: "917439689326",          // +91 7439689326
 
   youtube: "https://www.youtube.com/@PallimayaGhibliStory",
 
