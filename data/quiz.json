@@ -1,0 +1,1498 @@
+{
+ "subjects": [
+  {
+   "id": "indian-gk",
+   "name": "Indian GK",
+   "group": "General Knowledge",
+   "icon": "🇮🇳",
+   "desc": "States, symbols, rivers and the basics every Indian learner should know.",
+   "questions": [
+    {
+     "q": "What is the capital of India?",
+     "o": [
+      "Mumbai",
+      "New Delhi",
+      "Kolkata",
+      "Chennai"
+     ],
+     "a": 1,
+     "e": "New Delhi has been India's capital since 1911, when it replaced Kolkata.",
+     "d": 1
+    },
+    {
+     "q": "Which is the national animal of India?",
+     "o": [
+      "Lion",
+      "Elephant",
+      "Tiger",
+      "Peacock"
+     ],
+     "a": 2,
+     "e": "The Royal Bengal Tiger was declared the national animal in 1973.",
+     "d": 1
+    },
+    {
+     "q": "Which river is the longest in India?",
+     "o": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Narmada"
+     ],
+     "a": 1,
+     "e": "The Ganga flows about 2,525 km within India, longer than any other Indian river.",
+     "d": 1
+    },
+    {
+     "q": "How many states does India have today?",
+     "o": [
+      "27",
+      "28",
+      "29",
+      "30"
+     ],
+     "a": 1,
+     "e": "India has 28 states and 8 union territories.",
+     "d": 1
+    },
+    {
+     "q": "Who is called the Father of the Nation in India?",
+     "o": [
+      "Jawaharlal Nehru",
+      "Sardar Patel",
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose"
+     ],
+     "a": 2,
+     "e": "Mahatma Gandhi is called the Father of the Nation for leading the freedom movement.",
+     "d": 1
+    },
+    {
+     "q": "Which is the national bird of India?",
+     "o": [
+      "Parrot",
+      "Peacock",
+      "Sparrow",
+      "Eagle"
+     ],
+     "a": 1,
+     "e": "The Indian peacock was declared the national bird in 1963.",
+     "d": 1
+    },
+    {
+     "q": "Who wrote India's national anthem, 'Jana Gana Mana'?",
+     "o": [
+      "Bankim Chandra Chatterjee",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Kazi Nazrul Islam"
+     ],
+     "a": 1,
+     "e": "Rabindranath Tagore wrote both 'Jana Gana Mana' and 'Amar Sonar Bangla'.",
+     "d": 1
+    },
+    {
+     "q": "In which year did India become independent?",
+     "o": [
+      "1942",
+      "1945",
+      "1947",
+      "1950"
+     ],
+     "a": 2,
+     "e": "India became independent on 15 August 1947.",
+     "d": 1
+    },
+    {
+     "q": "Which city is known as the Pink City?",
+     "o": [
+      "Jodhpur",
+      "Jaipur",
+      "Udaipur",
+      "Ajmer"
+     ],
+     "a": 1,
+     "e": "Jaipur is called the Pink City because of its terracotta-pink buildings.",
+     "d": 2
+    },
+    {
+     "q": "Which is the largest state of India by area?",
+     "o": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Uttar Pradesh"
+     ],
+     "a": 2,
+     "e": "Rajasthan covers about 3.42 lakh square km, the largest of any state.",
+     "d": 2
+    },
+    {
+     "q": "The Constitution of India came into effect on which date?",
+     "o": [
+      "15 August 1947",
+      "26 November 1949",
+      "26 January 1950",
+      "2 October 1950"
+     ],
+     "a": 2,
+     "e": "It came into force on 26 January 1950, now celebrated as Republic Day.",
+     "d": 2
+    },
+    {
+     "q": "Who was the first Prime Minister of India?",
+     "o": [
+      "Sardar Patel",
+      "Jawaharlal Nehru",
+      "Rajendra Prasad",
+      "Lal Bahadur Shastri"
+     ],
+     "a": 1,
+     "e": "Jawaharlal Nehru took office on 15 August 1947.",
+     "d": 1
+    },
+    {
+     "q": "Which is the smallest state of India by area?",
+     "o": [
+      "Sikkim",
+      "Tripura",
+      "Goa",
+      "Nagaland"
+     ],
+     "a": 2,
+     "e": "Goa is the smallest state by area, at about 3,702 square km.",
+     "d": 2
+    },
+    {
+     "q": "Which state is called the 'Land of Five Rivers'?",
+     "o": [
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Bihar"
+     ],
+     "a": 1,
+     "e": "Punjab takes its name from 'panj ab' — five rivers.",
+     "d": 2
+    },
+    {
+     "q": "Which mountain range separates India from Tibet?",
+     "o": [
+      "Aravalli",
+      "Vindhya",
+      "Himalayas",
+      "Western Ghats"
+     ],
+     "a": 2,
+     "e": "The Himalayas form the northern boundary between India and the Tibetan plateau.",
+     "d": 1
+    },
+    {
+     "q": "Which city is called the Silicon Valley of India?",
+     "o": [
+      "Hyderabad",
+      "Pune",
+      "Bengaluru",
+      "Chennai"
+     ],
+     "a": 2,
+     "e": "Bengaluru is called so because of its large IT and startup industry.",
+     "d": 1
+    },
+    {
+     "q": "Which is India's national flower?",
+     "o": [
+      "Rose",
+      "Lotus",
+      "Marigold",
+      "Sunflower"
+     ],
+     "a": 1,
+     "e": "The lotus was declared the national flower in 1950.",
+     "d": 1
+    },
+    {
+     "q": "What is the currency of India?",
+     "o": [
+      "Taka",
+      "Rupee",
+      "Dinar",
+      "Riyal"
+     ],
+     "a": 1,
+     "e": "The Indian rupee is issued by the Reserve Bank of India.",
+     "d": 1
+    },
+    {
+     "q": "Which article of the Constitution guarantees equality before the law?",
+     "o": [
+      "Article 12",
+      "Article 14",
+      "Article 19",
+      "Article 21"
+     ],
+     "a": 1,
+     "e": "Article 14 guarantees equality before the law and equal protection of the laws.",
+     "d": 3
+    },
+    {
+     "q": "Which is the largest inland salt lake in India?",
+     "o": [
+      "Chilika",
+      "Wular",
+      "Sambhar",
+      "Loktak"
+     ],
+     "a": 2,
+     "e": "Sambhar Lake in Rajasthan is India's largest inland salt lake.",
+     "d": 3
+    }
+   ]
+  },
+  {
+   "id": "science",
+   "name": "Science & Nature",
+   "icon": "🔬",
+   "group": "Science",
+   "desc": "Body, plants, chemistry and the everyday science behind the world.",
+   "questions": [
+    {
+     "q": "What is the chemical formula of water?",
+     "o": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+     ],
+     "a": 1,
+     "e": "Two hydrogen atoms and one oxygen atom make water.",
+     "d": 1
+    },
+    {
+     "q": "Which gas do plants absorb from the air?",
+     "o": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+     ],
+     "a": 2,
+     "e": "Plants take in carbon dioxide and release oxygen during photosynthesis.",
+     "d": 1
+    },
+    {
+     "q": "How many bones are there in an adult human body?",
+     "o": [
+      "186",
+      "196",
+      "206",
+      "216"
+     ],
+     "a": 2,
+     "e": "An adult human body has 206 bones; babies are born with about 270.",
+     "d": 1
+    },
+    {
+     "q": "Which organ pumps blood around the body?",
+     "o": [
+      "Lungs",
+      "Liver",
+      "Heart",
+      "Kidney"
+     ],
+     "a": 2,
+     "e": "The heart pumps blood through the circulatory system.",
+     "d": 1
+    },
+    {
+     "q": "Which part of the cell is called the powerhouse?",
+     "o": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Cell wall"
+     ],
+     "a": 1,
+     "e": "Mitochondria produce most of the cell's energy.",
+     "d": 1
+    },
+    {
+     "q": "Which vitamin does the skin make from sunlight?",
+     "o": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+     ],
+     "a": 3,
+     "e": "Sunlight on the skin helps the body produce vitamin D.",
+     "d": 1
+    },
+    {
+     "q": "Which is the hardest natural substance?",
+     "o": [
+      "Iron",
+      "Quartz",
+      "Diamond",
+      "Granite"
+     ],
+     "a": 2,
+     "e": "Diamond ranks 10 on the Mohs hardness scale.",
+     "d": 1
+    },
+    {
+     "q": "What is the chemical symbol for gold?",
+     "o": [
+      "Go",
+      "Gd",
+      "Au",
+      "Ag"
+     ],
+     "a": 2,
+     "e": "Au comes from the Latin word 'aurum'. Ag is silver.",
+     "d": 2
+    },
+    {
+     "q": "What is the pH of pure water?",
+     "o": [
+      "5",
+      "7",
+      "9",
+      "12"
+     ],
+     "a": 1,
+     "e": "Pure water is neutral, with a pH of 7.",
+     "d": 2
+    },
+    {
+     "q": "Which gas is most abundant in Earth's atmosphere?",
+     "o": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+     ],
+     "a": 1,
+     "e": "Nitrogen makes up about 78% of the air we breathe.",
+     "d": 2
+    },
+    {
+     "q": "What does DNA stand for?",
+     "o": [
+      "Deoxyribonucleic acid",
+      "Dinucleic acid",
+      "Deoxyribose nitrate",
+      "Double nucleic acid"
+     ],
+     "a": 0,
+     "e": "DNA carries the genetic instructions for living things.",
+     "d": 2
+    },
+    {
+     "q": "Which part of a plant makes food?",
+     "o": [
+      "Root",
+      "Stem",
+      "Leaf",
+      "Flower"
+     ],
+     "a": 2,
+     "e": "Leaves make food through photosynthesis.",
+     "d": 1
+    },
+    {
+     "q": "Which of these diseases is caused by a virus?",
+     "o": [
+      "Malaria",
+      "Chickenpox",
+      "Cholera",
+      "Ringworm"
+     ],
+     "a": 1,
+     "e": "Chickenpox is viral. Malaria is caused by a parasite, cholera by bacteria, ringworm by fungus.",
+     "d": 2
+    },
+    {
+     "q": "What is the SI unit of force?",
+     "o": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+     ],
+     "a": 2,
+     "e": "Force is measured in newtons (N).",
+     "d": 2
+    },
+    {
+     "q": "Which is the largest organ of the human body?",
+     "o": [
+      "Liver",
+      "Brain",
+      "Skin",
+      "Lungs"
+     ],
+     "a": 2,
+     "e": "Skin is the body's largest organ by surface area and weight.",
+     "d": 2
+    },
+    {
+     "q": "Which acid gives lemons their sour taste?",
+     "o": [
+      "Citric acid",
+      "Acetic acid",
+      "Lactic acid",
+      "Formic acid"
+     ],
+     "a": 0,
+     "e": "Lemons contain citric acid.",
+     "d": 2
+    },
+    {
+     "q": "What is the process by which plants make food?",
+     "o": [
+      "Respiration",
+      "Digestion",
+      "Photosynthesis",
+      "Transpiration"
+     ],
+     "a": 2,
+     "e": "Photosynthesis uses sunlight, water and carbon dioxide to make glucose.",
+     "d": 1
+    },
+    {
+     "q": "Which blood group is called the universal donor?",
+     "o": [
+      "A positive",
+      "AB positive",
+      "O negative",
+      "B negative"
+     ],
+     "a": 2,
+     "e": "O negative blood can be given to almost any patient.",
+     "d": 2
+    },
+    {
+     "q": "Roughly how fast does light travel?",
+     "o": [
+      "3,000 km per second",
+      "30,000 km per second",
+      "3,00,000 km per second",
+      "30 lakh km per second"
+     ],
+     "a": 2,
+     "e": "Light travels about 3,00,000 km every second in a vacuum.",
+     "d": 2
+    },
+    {
+     "q": "Which organ filters waste from the blood?",
+     "o": [
+      "Heart",
+      "Kidney",
+      "Stomach",
+      "Spleen"
+     ],
+     "a": 1,
+     "e": "The kidneys filter waste and excess water into urine.",
+     "d": 1
+    }
+   ]
+  },
+  {
+   "id": "ai-tech",
+   "name": "AI & Technology",
+   "icon": "🤖",
+   "group": "Technology",
+   "desc": "AI basics, how the internet works and staying safe online.",
+   "questions": [
+    {
+     "q": "What does AI stand for?",
+     "o": [
+      "Automatic Input",
+      "Artificial Intelligence",
+      "Advanced Internet",
+      "Applied Information"
+     ],
+     "a": 1,
+     "e": "AI means Artificial Intelligence.",
+     "d": 1
+    },
+    {
+     "q": "What does 'LLM' stand for in AI?",
+     "o": [
+      "Large Language Model",
+      "Long Learning Machine",
+      "Linked Logic Module",
+      "Local Language Machine"
+     ],
+     "a": 0,
+     "e": "ChatGPT and similar tools are built on large language models.",
+     "d": 2
+    },
+    {
+     "q": "What is a 'prompt' in AI?",
+     "o": [
+      "A password",
+      "The instruction you give the AI",
+      "A type of chip",
+      "An error message"
+     ],
+     "a": 1,
+     "e": "A prompt is the text or instruction the AI responds to.",
+     "d": 1
+    },
+    {
+     "q": "What does 'GPU' stand for?",
+     "o": [
+      "General Processing Unit",
+      "Graphics Processing Unit",
+      "Global Power Unit",
+      "Grid Processor"
+     ],
+     "a": 1,
+     "e": "GPUs handle the heavy maths that AI models need.",
+     "d": 2
+    },
+    {
+     "q": "What is machine learning?",
+     "o": [
+      "Writing code by hand",
+      "Systems that learn patterns from data",
+      "A type of hardware",
+      "A social media tool"
+     ],
+     "a": 1,
+     "e": "Machine learning models improve by finding patterns in data.",
+     "d": 1
+    },
+    {
+     "q": "Which company developed ChatGPT?",
+     "o": [
+      "Google",
+      "OpenAI",
+      "Microsoft",
+      "Meta"
+     ],
+     "a": 1,
+     "e": "OpenAI released ChatGPT in late 2022.",
+     "d": 2
+    },
+    {
+     "q": "What does 'URL' stand for?",
+     "o": [
+      "Uniform Resource Locator",
+      "Universal Reading Link",
+      "Unified Route Language",
+      "User Reference List"
+     ],
+     "a": 0,
+     "e": "A URL is the address of a page on the web.",
+     "d": 2
+    },
+    {
+     "q": "Which of these is the strongest password?",
+     "o": [
+      "12345678",
+      "password1",
+      "Rahul2010",
+      "v7#Kq2!mL9@x"
+     ],
+     "a": 3,
+     "e": "Long, random, mixed-character passwords are hardest to guess.",
+     "d": 1
+    },
+    {
+     "q": "What is phishing?",
+     "o": [
+      "Speeding up a computer",
+      "Fake messages that try to steal your details",
+      "Deleting old files",
+      "Sending bulk email"
+     ],
+     "a": 1,
+     "e": "Phishing pretends to be a trusted source to get passwords or OTPs.",
+     "d": 1
+    },
+    {
+     "q": "What does 'cloud storage' mean?",
+     "o": [
+      "Files saved on your phone only",
+      "Files stored on remote servers",
+      "Files kept on a CD",
+      "Files compressed"
+     ],
+     "a": 1,
+     "e": "Cloud files live on remote servers and are accessed over the internet.",
+     "d": 1
+    },
+    {
+     "q": "How many megabytes are in one gigabyte?",
+     "o": [
+      "100",
+      "1000",
+      "1024",
+      "2048"
+     ],
+     "a": 2,
+     "e": "1 GB = 1024 MB in binary measurement.",
+     "d": 2
+    },
+    {
+     "q": "What is the job of HTML?",
+     "o": [
+      "Store data",
+      "Structure web pages",
+      "Run the operating system",
+      "Manage passwords"
+     ],
+     "a": 1,
+     "e": "HTML defines the structure and content of a web page.",
+     "d": 2
+    },
+    {
+     "q": "In AI, what is a 'hallucination'?",
+     "o": [
+      "A visual glitch",
+      "A confidently wrong answer",
+      "A slow response",
+      "A saved prompt"
+     ],
+     "a": 1,
+     "e": "AI models can invent facts that sound convincing but are false.",
+     "d": 3
+    },
+    {
+     "q": "What does 'open source' mean?",
+     "o": [
+      "Free of charge",
+      "Source code is publicly available",
+      "Runs only offline",
+      "Made by one company"
+     ],
+     "a": 1,
+     "e": "Open source means anyone can read, use and modify the code.",
+     "d": 2
+    },
+    {
+     "q": "Which of these is an AI image-generation tool?",
+     "o": [
+      "Midjourney",
+      "Photoshop 7",
+      "Notepad",
+      "WinRAR"
+     ],
+     "a": 0,
+     "e": "Midjourney generates images from text prompts.",
+     "d": 2
+    },
+    {
+     "q": "What is two-factor authentication?",
+     "o": [
+      "Using two passwords",
+      "A second verification step after your password",
+      "Two email accounts",
+      "Two devices"
+     ],
+     "a": 1,
+     "e": "2FA adds an OTP or app code on top of your password.",
+     "d": 1
+    },
+    {
+     "q": "What does 'CPU' stand for?",
+     "o": [
+      "Central Processing Unit",
+      "Core Power Unit",
+      "Computer Personal Unit",
+      "Central Program Utility"
+     ],
+     "a": 0,
+     "e": "The CPU is the main processor of a computer.",
+     "d": 1
+    },
+    {
+     "q": "What is a VPN mainly used for?",
+     "o": [
+      "Faster downloads",
+      "A private, encrypted connection",
+      "More storage",
+      "Better graphics"
+     ],
+     "a": 1,
+     "e": "A VPN encrypts your traffic and hides your IP address.",
+     "d": 2
+    },
+    {
+     "q": "In AI models, what is a 'token' roughly?",
+     "o": [
+      "A password",
+      "A chunk of text the model processes",
+      "A graphics file",
+      "A server"
+     ],
+     "a": 1,
+     "e": "Models read and generate text in small pieces called tokens.",
+     "d": 3
+    },
+    {
+     "q": "Which of these is the safest way to share an OTP?",
+     "o": [
+      "With a caller who asks for it",
+      "With a bank official over phone",
+      "Never share it with anyone",
+      "Post it in a group"
+     ],
+     "a": 2,
+     "e": "No bank, company or government office will ask for your OTP.",
+     "d": 1
+    }
+   ]
+  },
+  {
+   "id": "english",
+   "name": "English Grammar & Vocabulary",
+   "icon": "📝",
+   "group": "Education",
+   "desc": "Grammar rules, tenses and the words that make writing clearer.",
+   "questions": [
+    {
+     "q": "Choose the correct option: She ___ to school every day.",
+     "o": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+     ],
+     "a": 1,
+     "e": "With he/she/it in the present simple, add -s: she goes.",
+     "d": 1
+    },
+    {
+     "q": "What is the plural of 'child'?",
+     "o": [
+      "childs",
+      "children",
+      "childes",
+      "childrens"
+     ],
+     "a": 1,
+     "e": "'Children' is an irregular plural.",
+     "d": 1
+    },
+    {
+     "q": "Which word is closest in meaning to 'happy'?",
+     "o": [
+      "joyful",
+      "angry",
+      "tired",
+      "silent"
+     ],
+     "a": 0,
+     "e": "Joyful and happy both mean feeling pleasure.",
+     "d": 1
+    },
+    {
+     "q": "What is the opposite of 'ancient'?",
+     "o": [
+      "old",
+      "modern",
+      "famous",
+      "broken"
+     ],
+     "a": 1,
+     "e": "Ancient means very old; modern means of the present time.",
+     "d": 1
+    },
+    {
+     "q": "Which spelling is correct?",
+     "o": [
+      "neccessary",
+      "necessery",
+      "necessary",
+      "necesary"
+     ],
+     "a": 2,
+     "e": "Necessary: one c, two s's.",
+     "d": 2
+    },
+    {
+     "q": "He is good ___ mathematics.",
+     "o": [
+      "in",
+      "at",
+      "on",
+      "for"
+     ],
+     "a": 1,
+     "e": "We say 'good at' a skill or subject.",
+     "d": 1
+    },
+    {
+     "q": "What is the past tense of 'go'?",
+     "o": [
+      "goed",
+      "gone",
+      "went",
+      "going"
+     ],
+     "a": 2,
+     "e": "'Go' is irregular: go, went, gone.",
+     "d": 1
+    },
+    {
+     "q": "Which of these is a noun?",
+     "o": [
+      "quickly",
+      "beauty",
+      "beautiful",
+      "beautify"
+     ],
+     "a": 1,
+     "e": "Beauty is a thing (noun); beautiful is an adjective.",
+     "d": 2
+    },
+    {
+     "q": "I have lived here ___ 2010.",
+     "o": [
+      "for",
+      "since",
+      "from",
+      "during"
+     ],
+     "a": 1,
+     "e": "'Since' is used with a starting point in time.",
+     "d": 2
+    },
+    {
+     "q": "Which word means the same as 'begin'?",
+     "o": [
+      "end",
+      "start",
+      "stop",
+      "pause"
+     ],
+     "a": 1,
+     "e": "Begin and start are synonyms.",
+     "d": 1
+    },
+    {
+     "q": "Which sentence is grammatically correct?",
+     "o": [
+      "Neither of them are ready.",
+      "Neither of them is ready.",
+      "Neither of them were ready.",
+      "Neither of them be ready."
+     ],
+     "a": 1,
+     "e": "'Neither' is singular, so it takes 'is'.",
+     "d": 3
+    },
+    {
+     "q": "'Quickly' is which part of speech?",
+     "o": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Preposition"
+     ],
+     "a": 2,
+     "e": "It describes how an action is done, so it is an adverb.",
+     "d": 2
+    },
+    {
+     "q": "What is the opposite of 'generous'?",
+     "o": [
+      "kind",
+      "selfish",
+      "rich",
+      "polite"
+     ],
+     "a": 1,
+     "e": "Generous means giving freely; selfish is the opposite.",
+     "d": 2
+    },
+    {
+     "q": "The book ___ on the table.",
+     "o": [
+      "are",
+      "is",
+      "were",
+      "be"
+     ],
+     "a": 1,
+     "e": "'The book' is singular, so use 'is'.",
+     "d": 1
+    },
+    {
+     "q": "Which word means 'a short story with a moral'?",
+     "o": [
+      "novel",
+      "fable",
+      "poem",
+      "essay"
+     ],
+     "a": 1,
+     "e": "Fables like Aesop's are short stories that teach a lesson.",
+     "d": 2
+    },
+    {
+     "q": "Choose the correct article: ___ honest man.",
+     "o": [
+      "A",
+      "An",
+      "The",
+      "No article"
+     ],
+     "a": 1,
+     "e": "'Honest' starts with a vowel sound, so use 'an'.",
+     "d": 2
+    },
+    {
+     "q": "They ___ playing football now.",
+     "o": [
+      "is",
+      "am",
+      "are",
+      "was"
+     ],
+     "a": 2,
+     "e": "'They' takes 'are' in the present continuous.",
+     "d": 1
+    },
+    {
+     "q": "Which word is closest in meaning to 'difficult'?",
+     "o": [
+      "easy",
+      "hard",
+      "simple",
+      "light"
+     ],
+     "a": 1,
+     "e": "Difficult and hard both mean not easy.",
+     "d": 1
+    },
+    {
+     "q": "Which of these is a preposition?",
+     "o": [
+      "under",
+      "run",
+      "blue",
+      "quickly"
+     ],
+     "a": 0,
+     "e": "'Under' shows position or relation, so it is a preposition.",
+     "d": 2
+    },
+    {
+     "q": "Choose the correct option: He has ___ his homework.",
+     "o": [
+      "finish",
+      "finishing",
+      "finished",
+      "finishes"
+     ],
+     "a": 2,
+     "e": "After 'has', use the past participle: finished.",
+     "d": 2
+    }
+   ]
+  },
+  {
+   "id": "reasoning",
+   "name": "Logical Reasoning",
+   "icon": "🧩",
+   "group": "Education",
+   "desc": "Number series, patterns and the kind of thinking exams test.",
+   "questions": [
+    {
+     "q": "What comes next: 2, 4, 6, 8, ?",
+     "o": [
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "a": 1,
+     "e": "The series adds 2 each time.",
+     "d": 1
+    },
+    {
+     "q": "What comes next: 1, 4, 9, 16, ?",
+     "o": [
+      "20",
+      "24",
+      "25",
+      "36"
+     ],
+     "a": 2,
+     "e": "These are perfect squares: 1², 2², 3², 4², 5².",
+     "d": 1
+    },
+    {
+     "q": "Odd one out: dog, cat, cow, rose",
+     "o": [
+      "dog",
+      "cat",
+      "cow",
+      "rose"
+     ],
+     "a": 3,
+     "e": "The others are animals; rose is a plant.",
+     "d": 1
+    },
+    {
+     "q": "What comes next: A, C, E, G, ?",
+     "o": [
+      "H",
+      "I",
+      "J",
+      "K"
+     ],
+     "a": 1,
+     "e": "Skip one letter each time: A, C, E, G, I.",
+     "d": 2
+    },
+    {
+     "q": "If today is Monday, what day is it after 10 days?",
+     "o": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "a": 1,
+     "e": "10 days = 7 + 3, so Monday plus 3 days is Thursday.",
+     "d": 2
+    },
+    {
+     "q": "What comes next: 3, 6, 12, 24, ?",
+     "o": [
+      "36",
+      "42",
+      "48",
+      "54"
+     ],
+     "a": 2,
+     "e": "Each number doubles.",
+     "d": 1
+    },
+    {
+     "q": "Which number is missing: 5, 10, 20, ?, 80",
+     "o": [
+      "30",
+      "35",
+      "40",
+      "50"
+     ],
+     "a": 2,
+     "e": "Each number doubles, so 20 × 2 = 40.",
+     "d": 1
+    },
+    {
+     "q": "Odd one out: 2, 3, 5, 7, 9",
+     "o": [
+      "2",
+      "3",
+      "5",
+      "9"
+     ],
+     "a": 3,
+     "e": "All are prime numbers except 9 (3 × 3).",
+     "d": 2
+    },
+    {
+     "q": "If A=1, B=2, C=3, what is CAB?",
+     "o": [
+      "3, 1, 2",
+      "2, 1, 3",
+      "1, 2, 3",
+      "3, 2, 1"
+     ],
+     "a": 0,
+     "e": "C=3, A=1, B=2.",
+     "d": 2
+    },
+    {
+     "q": "Ram is taller than Sam. Sam is taller than Tom. Who is the shortest?",
+     "o": [
+      "Ram",
+      "Sam",
+      "Tom",
+      "Cannot tell"
+     ],
+     "a": 2,
+     "e": "Tom is shorter than Sam, and Sam is shorter than Ram.",
+     "d": 1
+    },
+    {
+     "q": "What is 20% of 150?",
+     "o": [
+      "20",
+      "25",
+      "30",
+      "35"
+     ],
+     "a": 2,
+     "e": "10% of 150 is 15, so 20% is 30.",
+     "d": 2
+    },
+    {
+     "q": "What comes next: 2, 6, 12, 20, 30, ?",
+     "o": [
+      "36",
+      "40",
+      "42",
+      "46"
+     ],
+     "a": 2,
+     "e": "Differences are 4, 6, 8, 10, so next is +12 = 42.",
+     "d": 3
+    },
+    {
+     "q": "Odd one out: square, circle, triangle, cube",
+     "o": [
+      "square",
+      "circle",
+      "triangle",
+      "cube"
+     ],
+     "a": 3,
+     "e": "A cube is 3D; the others are flat 2D shapes.",
+     "d": 2
+    },
+    {
+     "q": "What comes next: Z, X, V, T, ?",
+     "o": [
+      "S",
+      "R",
+      "Q",
+      "P"
+     ],
+     "a": 1,
+     "e": "Skip one letter backwards: Z, X, V, T, R.",
+     "d": 2
+    },
+    {
+     "q": "If you rearrange the letters of LISTEN, you get:",
+     "o": [
+      "SILENT",
+      "TINSEL",
+      "ENLIST",
+      "All three are possible"
+     ],
+     "a": 3,
+     "e": "Listen can become silent, enlist or tinsel.",
+     "d": 3
+    },
+    {
+     "q": "5 machines make 5 items in 5 minutes. How long do 100 machines take to make 100 items?",
+     "o": [
+      "5 minutes",
+      "20 minutes",
+      "100 minutes",
+      "1 minute"
+     ],
+     "a": 0,
+     "e": "Each machine makes one item in 5 minutes, so 100 machines still need 5 minutes.",
+     "d": 4
+    },
+    {
+     "q": "What comes next: 100, 50, 25, ?",
+     "o": [
+      "10",
+      "12.5",
+      "15",
+      "20"
+     ],
+     "a": 1,
+     "e": "Each number is halved, so 25 ÷ 2 = 12.5.",
+     "d": 3
+    },
+    {
+     "q": "A is the father of B. B is the sister of C. What is C to A?",
+     "o": [
+      "Son",
+      "Daughter",
+      "Either son or daughter",
+      "Nephew"
+     ],
+     "a": 2,
+     "e": "C is A's child, but the gender is not given.",
+     "d": 3
+    },
+    {
+     "q": "All roses are flowers. Some flowers fade quickly. Therefore:",
+     "o": [
+      "All roses fade quickly",
+      "No rose fades quickly",
+      "Cannot be determined",
+      "Some roses definitely fade quickly"
+     ],
+     "a": 2,
+     "e": "The two statements do not tell us anything about roses specifically.",
+     "d": 3
+    },
+    {
+     "q": "What is the angle between the hands of a clock at 3:00?",
+     "o": [
+      "0 degrees",
+      "30 degrees",
+      "90 degrees",
+      "180 degrees"
+     ],
+     "a": 2,
+     "e": "At 3:00 the hour hand points at 3 and the minute hand at 12 — a right angle.",
+     "d": 2
+    }
+   ]
+  },
+  {
+   "id": "space",
+   "name": "Space & Astronomy",
+   "icon": "🚀",
+   "group": "Science",
+   "desc": "Planets, missions and the scale of the universe around us.",
+   "questions": [
+    {
+     "q": "Which planet is called the Red Planet?",
+     "o": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+     ],
+     "a": 1,
+     "e": "Iron oxide (rust) on the surface gives Mars its red colour.",
+     "d": 1
+    },
+    {
+     "q": "Which is the largest planet in our solar system?",
+     "o": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Uranus"
+     ],
+     "a": 2,
+     "e": "Jupiter is more massive than all the other planets combined.",
+     "d": 1
+    },
+    {
+     "q": "What is the Sun?",
+     "o": [
+      "A planet",
+      "A star",
+      "A comet",
+      "A moon"
+     ],
+     "a": 1,
+     "e": "The Sun is the star at the centre of our solar system.",
+     "d": 1
+    },
+    {
+     "q": "Which planet has the most prominent rings?",
+     "o": [
+      "Jupiter",
+      "Saturn",
+      "Mars",
+      "Venus"
+     ],
+     "a": 1,
+     "e": "Saturn's rings are the brightest and most visible from Earth.",
+     "d": 1
+    },
+    {
+     "q": "What is Earth's natural satellite?",
+     "o": [
+      "Mars",
+      "The Moon",
+      "Titan",
+      "Venus"
+     ],
+     "a": 1,
+     "e": "The Moon is Earth's only natural satellite.",
+     "d": 1
+    },
+    {
+     "q": "How long does sunlight take to reach Earth?",
+     "o": [
+      "8 seconds",
+      "8 minutes",
+      "8 hours",
+      "8 days"
+     ],
+     "a": 1,
+     "e": "Light takes about 8 minutes 20 seconds to travel from Sun to Earth.",
+     "d": 2
+    },
+    {
+     "q": "Which was the first artificial satellite?",
+     "o": [
+      "Explorer 1",
+      "Sputnik 1",
+      "Aryabhata",
+      "Vostok 1"
+     ],
+     "a": 1,
+     "e": "The Soviet Union launched Sputnik 1 in 1957.",
+     "d": 2
+    },
+    {
+     "q": "Who was the first human in space?",
+     "o": [
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Alan Shepard",
+      "Rakesh Sharma"
+     ],
+     "a": 1,
+     "e": "Yuri Gagarin orbited Earth in 1961.",
+     "d": 2
+    },
+    {
+     "q": "What was India's first satellite?",
+     "o": [
+      "INSAT-1A",
+      "Rohini",
+      "Aryabhata",
+      "Bhaskara"
+     ],
+     "a": 2,
+     "e": "Aryabhata was launched in 1975.",
+     "d": 2
+    },
+    {
+     "q": "In which year did Chandrayaan-3 land on the Moon?",
+     "o": [
+      "2019",
+      "2021",
+      "2023",
+      "2025"
+     ],
+     "a": 2,
+     "e": "Chandrayaan-3 landed near the lunar south pole on 23 August 2023.",
+     "d": 1
+    },
+    {
+     "q": "What is a light year a measure of?",
+     "o": [
+      "Time",
+      "Distance",
+      "Brightness",
+      "Temperature"
+     ],
+     "a": 1,
+     "e": "A light year is the distance light travels in one year.",
+     "d": 2
+    },
+    {
+     "q": "Which planet is the hottest in the solar system?",
+     "o": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ],
+     "a": 1,
+     "e": "Venus has a thick carbon dioxide atmosphere that traps heat.",
+     "d": 2
+    },
+    {
+     "q": "Which galaxy do we live in?",
+     "o": [
+      "Andromeda",
+      "Milky Way",
+      "Whirlpool",
+      "Sombrero"
+     ],
+     "a": 1,
+     "e": "Our solar system sits inside the Milky Way galaxy.",
+     "d": 1
+    },
+    {
+     "q": "What is a black hole?",
+     "o": [
+      "An empty space",
+      "A region whose gravity is so strong light cannot escape",
+      "A dead planet",
+      "A type of comet"
+     ],
+     "a": 1,
+     "e": "Nothing that crosses its event horizon can escape.",
+     "d": 2
+    },
+    {
+     "q": "What does ISRO stand for?",
+     "o": [
+      "Indian Space Research Organisation",
+      "International Space Research Office",
+      "Indian Satellite Reconnaissance Org",
+      "Institute of Space Rocket Operations"
+     ],
+     "a": 0,
+     "e": "ISRO is India's national space agency.",
+     "d": 1
+    },
+    {
+     "q": "Which planet rotates almost on its side?",
+     "o": [
+      "Neptune",
+      "Uranus",
+      "Saturn",
+      "Mercury"
+     ],
+     "a": 1,
+     "e": "Uranus is tilted about 98 degrees, so it appears to roll around the Sun.",
+     "d": 3
+    },
+    {
+     "q": "The asteroid belt lies between which two planets?",
+     "o": [
+      "Earth and Mars",
+      "Mars and Jupiter",
+      "Jupiter and Saturn",
+      "Venus and Earth"
+     ],
+     "a": 1,
+     "e": "Most asteroids orbit between Mars and Jupiter.",
+     "d": 2
+    },
+    {
+     "q": "How many planets are in our solar system?",
+     "o": [
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "a": 1,
+     "e": "There are 8 planets since Pluto was reclassified in 2006.",
+     "d": 1
+    },
+    {
+     "q": "Which star is closest to Earth?",
+     "o": [
+      "Sirius",
+      "Proxima Centauri",
+      "The Sun",
+      "Polaris"
+     ],
+     "a": 2,
+     "e": "The Sun is our nearest star.",
+     "d": 2
+    },
+    {
+     "q": "What is the name of the force that keeps planets in orbit?",
+     "o": [
+      "Magnetism",
+      "Gravity",
+      "Friction",
+      "Tension"
+     ],
+     "a": 1,
+     "e": "Gravity holds planets in orbit around the Sun.",
+     "d": 1
+    }
+   ]
+  }
+ ]
+}

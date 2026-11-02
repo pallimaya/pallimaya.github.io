@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>YouTube Channel — Pallimaya</title>
-<meta name="description" content="Pallimaya on YouTube: AI storytelling and animation walkthroughs, prompt examples and workflow videos.">
+<title>Video Hub — Pallimaya on YouTube</title>
+<meta name="description" content="Every video from the Pallimaya GhibliStory channel, with related quizzes so you can test what you learned.">
 <link rel="canonical" href="https://pallimaya.github.io/youtube.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pallimaya">
-<meta property="og:title" content="YouTube Channel — Pallimaya">
-<meta property="og:description" content="Pallimaya on YouTube: AI storytelling and animation walkthroughs, prompt examples and workflow videos.">
+<meta property="og:title" content="Video Hub — Pallimaya on YouTube">
+<meta property="og:description" content="Every video from the Pallimaya GhibliStory channel, with related quizzes so you can test what you learned.">
 <meta property="og:url" content="https://pallimaya.github.io/youtube.html">
 <meta property="og:image" content="https://pallimaya.github.io/assets/course-character.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -27,13 +27,13 @@
     <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav class="main-nav">
       <a href="index.html">Home</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="brain.html">Brain</a>
+      <a href="learn.html">Learn</a>
+      <a href="journey.html">Journey</a>
+      <a href="progress.html">Progress</a>
       <a href="courses.html">Courses</a>
-      <a href="upcoming.html">Upcoming</a>
-      <a href="offers.html">Offers</a>
       <a href="purchase.html">Payment</a>
-      <a href="testimonials.html">Reviews</a>
-      <a href="youtube.html" class="active">YouTube</a>
-      <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
     <a class="btn btn-gold btn-sm header-cta" href="courses.html">Buy a course</a>
@@ -42,10 +42,10 @@
 <main>
 
 <section class="page-head"><div class="wrap">
-  <p class="eyebrow">YouTube</p>
-  <h1>Watch before you buy</h1>
-  <p>Our channel is where the free material lives — walkthroughs, workflow ideas and examples of what
-  the paid courses go deeper into.</p>
+  <p class="eyebrow">Video Hub</p>
+  <h1>Watch, then test yourself</h1>
+  <p>Every video from the channel in one place. Where a video matches a quiz topic, you can check
+  what you remember straight after watching.</p>
 </div></section>
 
 <section class="section"><div class="wrap">
@@ -54,28 +54,33 @@
     <div class="yt-body">
       <p class="eyebrow">Pallimaya on YouTube</p>
       <h2 style="margin-bottom:8px">@PallimayaGhibliStory</h2>
-      <p class="muted">AI storytelling and animation content — see the style and the standard of work
-      behind the masterclasses before you spend anything.</p>
+      <p class="muted">AI storytelling and animation content — see the style and the standard of
+      work behind the masterclasses before you spend anything.</p>
       <a class="btn btn-gold" href="https://www.youtube.com/@PallimayaGhibliStory" target="_blank" rel="noopener">Visit the channel</a>
-      <p class="form-note" style="margin-top:14px">Videos open on YouTube. New uploads appear on the
-      channel page first.</p>
+      <p class="form-note" style="margin-top:14px">New uploads appear on the channel page first.</p>
     </div>
   </div>
 
-  <div class="section-head" style="margin-top:48px"><div><h2>Free on the channel</h2>
-    <p>Everything below is free to watch. The PDF courses are the structured, step-by-step version of
-    the same ideas.</p></div></div>
-  <div class="feature-grid">
-    <div class="feature"><span class="fi">🎬</span><div><h4>Workflow walkthroughs</h4><p>How a project actually gets made, start to finish.</p></div></div>
-    <div class="feature"><span class="fi">🧪</span><div><h4>Tool tests</h4><p>What works, what wastes your time.</p></div></div>
-    <div class="feature"><span class="fi">🖼️</span><div><h4>Prompt examples</h4><p>Real prompts and the results they produce.</p></div></div>
-    <div class="feature"><span class="fi">📣</span><div><h4>Creator shout-outs</h4><p>Small channels get free promotion in our descriptions.</p></div></div>
-  </div>
+  <div class="section-head" style="margin-top:48px"><div><p class="eyebrow">Latest videos</p>
+    <h2>From the channel</h2></div></div>
 
-  <div class="offer-banner" style="margin-top:36px">
-    <div><h3>Run a YouTube channel?</h3>
-      <p>We promote eligible small creators for free in relevant video descriptions.</p></div>
-    <a class="btn btn-outline" href="creators.html">Get free promotion</a>
+  <div class="empty-state" id="videoEmpty" hidden>
+    <div class="big">▶</div>
+    <h3 style="margin-bottom:6px">No videos published yet</h3>
+    <p class="muted" style="max-width:42em;margin:0 auto">The channel is brand new. The moment a
+    video goes live it appears here with its thumbnail, and where it fits a topic you will also get
+    a related quiz underneath.</p>
+    <a class="btn btn-outline btn-sm" style="margin-top:18px" href="https://www.youtube.com/@PallimayaGhibliStory" target="_blank" rel="noopener">Check the channel</a>
+  </div>
+  <div class="video-grid" id="videoGrid" hidden></div>
+
+  <div class="section-head" style="margin-top:52px"><div><h2>While you wait</h2>
+    <p>The quiz zone and the learning cards are free and need no sign-up.</p></div></div>
+  <div class="feature-grid">
+    <div class="feature"><span class="fi">📝</span><div><h4>Quiz Zone</h4><p>Six subjects, timed, with explanations.</p></div></div>
+    <div class="feature"><span class="fi">🧩</span><div><h4>Brain Training</h4><p>A new puzzle every day.</p></div></div>
+    <div class="feature"><span class="fi">📚</span><div><h4>Learn &amp; Explore</h4><p>One-minute lessons on real topics.</p></div></div>
+    <div class="feature"><span class="fi">🤝</span><div><h4>Creator Promotion</h4><p>Free promotion for small channels.</p></div></div>
   </div>
 </div></section>
 
@@ -99,12 +104,16 @@
           <li><a href="upcoming.html">Upcoming Courses</a></li>
           <li><a href="offers.html">Offers &amp; Discounts</a></li>
           <li><a href="creators.html">Creator Promotion</a></li>
-          <li><a href="youtube.html">YouTube Channel</a></li>
+          <li><a href="youtube.html">YouTube Videos</a></li>
+          <li><a href="about.html">About Us</a></li>
         </ul>
       </div>
       <div>
         <h4>Help</h4>
         <ul>
+          <li><a href="quiz.html">Quiz Zone</a></li>
+          <li><a href="brain.html">Brain Training</a></li>
+          <li><a href="learn.html">Learn &amp; Explore</a></li>
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="support.html">Course Support</a></li>
           <li><a href="delivery.html">PDF Delivery</a></li>
@@ -154,5 +163,6 @@
 </div>
 <script src="config.js"></script>
 <script src="app.js"></script>
+<script src="assets/videos.js"></script>
 </body>
 </html>

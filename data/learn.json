@@ -1,0 +1,160 @@
+{
+ "cards": [
+  {
+   "id": "what-is-ai",
+   "cat": "AI & Technology",
+   "title": "What AI actually is",
+   "short": "AI is software that finds patterns in data and uses them to answer, predict or create.",
+   "facts": [
+    "It does not 'think' like a person — it calculates probabilities.",
+    "It learns from examples, not from rules typed by hand.",
+    "The same model can be good at one task and bad at another."
+   ],
+   "example": "When ChatGPT writes a reply, it is predicting the most likely next words, not looking up an answer.",
+   "quiz": "ai-tech"
+  },
+  {
+   "id": "prompt-basics",
+   "cat": "AI & Technology",
+   "title": "How to write a better prompt",
+   "short": "A good prompt says who, what, how and in what style — in that order.",
+   "facts": [
+    "Be specific: 'a red fox in snow, soft morning light' beats 'an animal'.",
+    "Mention the format you want: photo, illustration, 3D, sketch.",
+    "Ask for one change at a time when refining a result."
+   ],
+   "example": "'Cinematic landscape, mountains and a lake at sunrise, 4k, ultra realistic' gives far better output than 'nice scenery'.",
+   "quiz": "ai-tech"
+  },
+  {
+   "id": "password-safety",
+   "cat": "Internet Safety",
+   "title": "Passwords that actually protect you",
+   "short": "Length beats cleverness. A long random password is far safer than a short tricky one.",
+   "facts": [
+    "Use at least 12 characters with mixed types.",
+    "Never reuse the same password on two sites.",
+    "Turn on two-factor authentication wherever it is offered."
+   ],
+   "example": "'v7#Kq2!mL9@x' is far harder to crack than 'Rahul@2010', which follows a common pattern.",
+   "quiz": "ai-tech"
+  },
+  {
+   "id": "photosynthesis",
+   "cat": "Science Facts",
+   "title": "How plants make their own food",
+   "short": "Plants use sunlight, water and carbon dioxide to make sugar, releasing oxygen.",
+   "facts": [
+    "The green pigment chlorophyll captures sunlight.",
+    "Water is drawn up from the roots by the stem.",
+    "Almost every food chain on Earth starts here."
+   ],
+   "example": "A leaf left in sunlight produces tiny oxygen bubbles in water — you can see photosynthesis happen.",
+   "quiz": "science"
+  },
+  {
+   "id": "blood-groups",
+   "cat": "Science Facts",
+   "title": "Why blood groups matter",
+   "short": "Blood groups are markers on red blood cells; matching them prevents dangerous reactions.",
+   "facts": [
+    "O negative is the universal donor.",
+    "AB positive is the universal recipient.",
+    "Rh factor (positive or negative) matters as much as A, B and O."
+   ],
+   "example": "In an emergency, O negative blood can be given before a patient's group is known.",
+   "quiz": "science"
+  },
+  {
+   "id": "light-year",
+   "cat": "Space & Universe",
+   "title": "A light year is distance, not time",
+   "short": "It is how far light travels in one year — about 9.46 trillion kilometres.",
+   "facts": [
+    "Sunlight takes about 8 minutes 20 seconds to reach us.",
+    "The nearest star after the Sun is about 4.2 light years away.",
+    "Looking at distant stars means looking into the past."
+   ],
+   "example": "If a star is 100 light years away, the light you see tonight left it 100 years ago.",
+   "quiz": "space"
+  },
+  {
+   "id": "chandrayaan",
+   "cat": "Space & Universe",
+   "title": "Why Chandrayaan-3 mattered",
+   "short": "In August 2023 India landed near the Moon's south pole, a region no other mission had reached.",
+   "facts": [
+    "The lander was named Vikram and the rover Pragyan.",
+    "The south pole may hold water ice in shadowed craters.",
+    "ISRO is India's national space agency."
+   ],
+   "example": "The mission's low-cost engineering became a widely studied model for space programmes.",
+   "quiz": "space"
+  },
+  {
+   "id": "constitution",
+   "cat": "Indian Polity",
+   "title": "The Constitution in one minute",
+   "short": "India's Constitution is the rulebook that limits government power and guarantees rights.",
+   "facts": [
+    "It came into effect on 26 January 1950.",
+    "Article 14 guarantees equality before the law.",
+    "It is the longest written constitution of any country."
+   ],
+   "example": "If a law treats two citizens unequally without good reason, Article 14 can be used to challenge it.",
+   "quiz": "indian-gk"
+  },
+  {
+   "id": "rivers",
+   "cat": "General Knowledge",
+   "title": "India's rivers at a glance",
+   "short": "Himalayan rivers are perennial; peninsular rivers depend on rainfall.",
+   "facts": [
+    "The Ganga is the longest river within India.",
+    "The Godavari is the longest peninsular river.",
+    "Himalayan rivers carry glacier melt all year."
+   ],
+   "example": "Because of glacier melt, the Ganga keeps flowing in summer while rain-fed rivers shrink.",
+   "quiz": "indian-gk"
+  },
+  {
+   "id": "vocab-context",
+   "cat": "English Vocabulary",
+   "title": "Learn words from context, not lists",
+   "short": "A word sticks when you meet it inside a sentence, not alone in a list.",
+   "facts": [
+    "Note the sentence, not just the meaning.",
+    "Use a new word within 24 hours of learning it.",
+    "Learn word families: decide, decision, decisive."
+   ],
+   "example": "Seeing 'reluctant' in 'he was reluctant to answer' teaches both meaning and usage.",
+   "quiz": "english"
+  },
+  {
+   "id": "tenses",
+   "cat": "English Grammar",
+   "title": "The three tenses you actually need",
+   "short": "Most everyday sentences use present simple, past simple and present perfect.",
+   "facts": [
+    "Present simple: habits and facts — 'she goes'.",
+    "Past simple: finished actions — 'she went'.",
+    "Present perfect: past linked to now — 'she has gone'."
+   ],
+   "example": "'I lost my keys' (finished) versus 'I have lost my keys' (still missing).",
+   "quiz": "english"
+  },
+  {
+   "id": "pattern-thinking",
+   "cat": "Brain & Logic",
+   "title": "How to solve number series",
+   "short": "Check differences first, then ratios, then squares and cubes.",
+   "facts": [
+    "Subtract consecutive numbers to see the gap pattern.",
+    "If gaps double, the series is multiplying.",
+    "Recognise 1, 4, 9, 16 as squares and 1, 8, 27 as cubes."
+   ],
+   "example": "In 2, 6, 12, 20, 30 the gaps are 4, 6, 8, 10 — so the next gap is 12.",
+   "quiz": "reasoning"
+  }
+ ]
+}

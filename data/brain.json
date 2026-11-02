@@ -1,0 +1,364 @@
+{
+ "challenges": [
+  {
+   "q": "What comes next: 2, 6, 12, 20, 30, ?",
+   "o": [
+    "36",
+    "40",
+    "42",
+    "44"
+   ],
+   "a": 2,
+   "e": "Differences grow by 2: +4, +6, +8, +10, so +12 gives 42.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "I have keys but no locks, space but no room. What am I?",
+   "o": [
+    "A map",
+    "A keyboard",
+    "A clock",
+    "A book"
+   ],
+   "a": 1,
+   "e": "A keyboard has keys and a spacebar, but no locks and no room.",
+   "t": "Riddle"
+  },
+  {
+   "q": "If 3 cats catch 3 mice in 3 minutes, how long do 9 cats take to catch 9 mice?",
+   "o": [
+    "3 minutes",
+    "6 minutes",
+    "9 minutes",
+    "27 minutes"
+   ],
+   "a": 0,
+   "e": "Each cat catches one mouse in 3 minutes, so 9 cats still need 3 minutes.",
+   "t": "Logic"
+  },
+  {
+   "q": "Which number replaces the question mark: 1, 1, 2, 3, 5, 8, ?",
+   "o": [
+    "11",
+    "12",
+    "13",
+    "15"
+   ],
+   "a": 2,
+   "e": "Each number is the sum of the two before it: 5 + 8 = 13.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "What comes next: 64, 32, 16, 8, ?",
+   "o": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "a": 2,
+   "e": "Each number is halved, so 8 ÷ 2 = 4.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "A farmer has 17 sheep and all but 9 run away. How many are left?",
+   "o": [
+    "8",
+    "9",
+    "17",
+    "0"
+   ],
+   "a": 1,
+   "e": "'All but 9' means 9 remain.",
+   "t": "Riddle"
+  },
+  {
+   "q": "Odd one out: 121, 144, 169, 150",
+   "o": [
+    "121",
+    "144",
+    "169",
+    "150"
+   ],
+   "a": 3,
+   "e": "121, 144 and 169 are perfect squares (11², 12², 13²); 150 is not.",
+   "t": "Pattern"
+  },
+  {
+   "q": "What is the next letter: B, D, F, H, ?",
+   "o": [
+    "I",
+    "J",
+    "K",
+    "L"
+   ],
+   "a": 1,
+   "e": "Skip one letter each time: B, D, F, H, J.",
+   "t": "Pattern"
+  },
+  {
+   "q": "If you have 3 apples and take away 2, how many do you have?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "a": 1,
+   "e": "You took 2 apples, so you have 2.",
+   "t": "Riddle"
+  },
+  {
+   "q": "Complete the series: 7, 14, 28, 56, ?",
+   "o": [
+    "84",
+    "96",
+    "112",
+    "120"
+   ],
+   "a": 2,
+   "e": "Each number doubles: 56 × 2 = 112.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "What is the missing number: 4, 9, 16, 25, ?, 49",
+   "o": [
+    "30",
+    "36",
+    "42",
+    "45"
+   ],
+   "a": 1,
+   "e": "These are squares: 2², 3², 4², 5², 6², 7².",
+   "t": "Number sequence"
+  },
+  {
+   "q": "A clock shows 6:00. What is the angle between the hands?",
+   "o": [
+    "90 degrees",
+    "120 degrees",
+    "180 degrees",
+    "360 degrees"
+   ],
+   "a": 2,
+   "e": "The hands point in opposite directions — a straight line.",
+   "t": "Logic"
+  },
+  {
+   "q": "Which word does not belong: triangle, square, rectangle, sphere",
+   "o": [
+    "triangle",
+    "square",
+    "rectangle",
+    "sphere"
+   ],
+   "a": 3,
+   "e": "A sphere is 3D; the rest are flat shapes.",
+   "t": "Pattern"
+  },
+  {
+   "q": "If today is Friday, what day was it 3 days ago?",
+   "o": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "a": 1,
+   "e": "Three days before Friday is Tuesday.",
+   "t": "Logic"
+  },
+  {
+   "q": "What comes next: 1, 8, 27, 64, ?",
+   "o": [
+    "100",
+    "121",
+    "125",
+    "144"
+   ],
+   "a": 2,
+   "e": "These are cubes: 1³, 2³, 3³, 4³, 5³ = 125.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "I am an odd number. Take away one letter and I become even. What am I?",
+   "o": [
+    "Three",
+    "Seven",
+    "Nine",
+    "Five"
+   ],
+   "a": 1,
+   "e": "SEVEN minus the letter S becomes EVEN.",
+   "t": "Riddle"
+  },
+  {
+   "q": "How many times does the digit 9 appear from 1 to 100?",
+   "o": [
+    "10",
+    "19",
+    "20",
+    "11"
+   ],
+   "a": 2,
+   "e": "It appears 10 times in the tens place (90–99) and 10 times in the units place.",
+   "t": "Logic"
+  },
+  {
+   "q": "What is the next number: 2, 3, 5, 7, 11, ?",
+   "o": [
+    "12",
+    "13",
+    "14",
+    "15"
+   ],
+   "a": 1,
+   "e": "These are prime numbers; after 11 comes 13.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "A bat and a ball cost ₹110 together. The bat costs ₹100 more than the ball. What does the ball cost?",
+   "o": [
+    "₹5",
+    "₹10",
+    "₹1",
+    "₹11"
+   ],
+   "a": 0,
+   "e": "If the ball is ₹5, the bat is ₹105, and together they are ₹110.",
+   "t": "Logic"
+  },
+  {
+   "q": "Which one is the heaviest: 1 kg of iron, 1 kg of cotton, 1 kg of water?",
+   "o": [
+    "Iron",
+    "Cotton",
+    "Water",
+    "All are equal"
+   ],
+   "a": 3,
+   "e": "One kilogram is one kilogram, whatever the material.",
+   "t": "Logic"
+  },
+  {
+   "q": "Complete: 3, 9, 27, 81, ?",
+   "o": [
+    "162",
+    "243",
+    "324",
+    "729"
+   ],
+   "a": 1,
+   "e": "Each number is multiplied by 3: 81 × 3 = 243.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "What has hands but cannot clap?",
+   "o": [
+    "A clock",
+    "A chair",
+    "A river",
+    "A tree"
+   ],
+   "a": 0,
+   "e": "A clock has hands that show the time but cannot clap.",
+   "t": "Riddle"
+  },
+  {
+   "q": "If 5 people shake hands with each other once, how many handshakes happen?",
+   "o": [
+    "5",
+    "10",
+    "15",
+    "20"
+   ],
+   "a": 1,
+   "e": "Each of 5 people shakes 4 hands: 5 × 4 ÷ 2 = 10.",
+   "t": "Logic"
+  },
+  {
+   "q": "What comes next: 20, 19, 17, 14, ?",
+   "o": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "a": 0,
+   "e": "Subtract 1, then 2, then 3, then 4: 14 − 4 = 10.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "Which is the odd one out: 8, 27, 64, 100",
+   "o": [
+    "8",
+    "27",
+    "64",
+    "100"
+   ],
+   "a": 3,
+   "e": "8, 27 and 64 are cubes; 100 is a square.",
+   "t": "Pattern"
+  },
+  {
+   "q": "A train travels 60 km in 1 hour. How far in 20 minutes?",
+   "o": [
+    "10 km",
+    "15 km",
+    "20 km",
+    "30 km"
+   ],
+   "a": 2,
+   "e": "20 minutes is one third of an hour, so 60 ÷ 3 = 20 km.",
+   "t": "Maths"
+  },
+  {
+   "q": "What number should replace the question mark: 6, 11, 21, 41, ?",
+   "o": [
+    "61",
+    "71",
+    "81",
+    "91"
+   ],
+   "a": 2,
+   "e": "Each number is doubled and then 1 is subtracted: 41 × 2 − 1 = 81.",
+   "t": "Number sequence"
+  },
+  {
+   "q": "How many months have 28 days?",
+   "o": [
+    "1",
+    "2",
+    "12",
+    "6"
+   ],
+   "a": 2,
+   "e": "Every month has at least 28 days.",
+   "t": "Riddle"
+  },
+  {
+   "q": "If A is taller than B, and B is taller than C, who is the shortest?",
+   "o": [
+    "A",
+    "B",
+    "C",
+    "Cannot tell"
+   ],
+   "a": 2,
+   "e": "C is shorter than B, and B is shorter than A.",
+   "t": "Logic"
+  },
+  {
+   "q": "What is half of two plus two?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 2,
+   "e": "Half of two is one, plus two is three.",
+   "t": "Maths"
+  }
+ ]
+}

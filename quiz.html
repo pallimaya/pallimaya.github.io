@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz Zone — Subject Quizzes with Explanations — Pallimaya</title>
+<meta name="description" content="Free subject quizzes in English with a timer, difficulty levels and a full answer review with explanations. Indian GK, science, AI, English and reasoning.">
+<link rel="canonical" href="https://pallimaya.github.io/quiz.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pallimaya">
+<meta property="og:title" content="Quiz Zone — Subject Quizzes with Explanations — Pallimaya">
+<meta property="og:description" content="Free subject quizzes in English with a timer, difficulty levels and a full answer review with explanations. Indian GK, science, AI, English and reasoning.">
+<meta property="og:url" content="https://pallimaya.github.io/quiz.html">
+<meta property="og:image" content="https://pallimaya.github.io/assets/course-character.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#08080a">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="Pallimaya logo" width="34" height="34">
+      <span>Pallimaya</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="quiz.html" class="active">Quiz</a>
+      <a href="brain.html">Brain</a>
+      <a href="learn.html">Learn</a>
+      <a href="journey.html">Journey</a>
+      <a href="progress.html">Progress</a>
+      <a href="courses.html">Courses</a>
+      <a href="purchase.html">Payment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btn-gold btn-sm header-cta" href="courses.html">Buy a course</a>
+  </div>
+</header>
+<main>
+
+<section class="page-head"><div class="wrap">
+  <p class="eyebrow">Quiz Zone</p>
+  <h1>Test what you know</h1>
+  <p>Pick a subject, choose your difficulty and time, then start. Every question comes with an
+  explanation at the end — so a quiz is practice, not just a score.</p>
+</div></section>
+
+<section class="section" id="setupScreen"><div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Step 1</p><h2>Choose a subject</h2></div></div>
+  <div class="subject-grid" id="subjectGrid"></div>
+
+  <div class="pay-card" id="setupPanel" style="margin-top:34px">
+    <h3 style="margin-top:0">Step 2 — Set up your quiz</h3>
+    <div class="form-grid">
+      <div class="form-row">
+        <label for="qSubject">Subject</label>
+        <select id="qSubject"></select>
+      </div>
+      <div class="form-row">
+        <label for="qDiff">Difficulty</label>
+        <select id="qDiff">
+          <option value="0">Mixed (all levels)</option>
+          <option value="1">Beginner</option>
+          <option value="2">Intermediate</option>
+          <option value="3">Advanced</option>
+          <option value="4">Expert</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="qCount">Number of questions</label>
+        <select id="qCount">
+          <option value="5">5 questions</option>
+          <option value="10" selected>10 questions</option>
+          <option value="20">20 questions</option>
+          <option value="30">30 questions</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="qTime">Time limit</label>
+        <select id="qTime">
+          <option value="1">1 minute</option>
+          <option value="3">3 minutes</option>
+          <option value="5" selected>5 minutes</option>
+          <option value="10">10 minutes</option>
+          <option value="15">15 minutes</option>
+        </select>
+      </div>
+    </div>
+    <p class="form-note" id="poolNote"></p>
+    <button class="btn btn-gold btn-block" id="startBtn" type="button" style="margin-top:8px">Start quiz</button>
+  </div>
+</div></section>
+
+<section class="section" id="quizScreen" hidden><div class="wrap narrow">
+  <div class="quiz-hud">
+    <div class="hud-item"><span class="hud-label">Question</span><b><span id="qNumber">1</span>/<span id="qTotal">10</span></b></div>
+    <div class="hud-item"><span class="hud-label">Difficulty</span><b id="qDiffBadge">Beginner</b></div>
+    <div class="hud-item"><span class="hud-label">Left</span><b id="qRemaining">9</b></div>
+    <div class="hud-item timer"><span class="hud-label">Time</span><b id="qTimer">5:00</b></div>
+  </div>
+  <div class="hud-bar"><span id="qProgressBar"></span></div>
+
+  <div class="pay-card" style="margin-top:22px">
+    <h2 id="qText" style="font-size:1.3rem;margin-bottom:20px"></h2>
+    <div class="option-list" id="qOptions"></div>
+    <div class="quiz-nav">
+      <button class="btn btn-outline btn-sm" id="qPrev" type="button">← Previous</button>
+      <button class="btn btn-gold btn-sm" id="qNext" type="button">Next →</button>
+      <button class="btn btn-gold btn-sm" id="qSubmit" type="button" hidden>Submit quiz</button>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="resultScreen" hidden><div class="wrap narrow">
+  <div class="pay-card">
+    <div class="result-top">
+      <div class="result-ring" id="rRing"><span id="rAcc">0%</span></div>
+      <div>
+        <p class="eyebrow" style="margin-bottom:4px">Quiz completed</p>
+        <h2 style="margin-bottom:6px"><span id="rScore">0/0</span></h2>
+        <p class="muted" style="margin:0" id="rSubject"></p>
+      </div>
+    </div>
+    <div class="result-stats">
+      <div><b id="rTotal">0</b><span>Total</span></div>
+      <div><b id="rCorrect" class="green">0</b><span>Correct</span></div>
+      <div><b id="rWrong" class="red">0</b><span>Incorrect</span></div>
+      <div><b id="rSkipped">0</b><span>Unanswered</span></div>
+    </div>
+    <div class="quiz-nav" style="margin-top:18px">
+      <button class="btn btn-gold btn-sm" id="againBtn" type="button">Take another quiz</button>
+      <a class="btn btn-outline btn-sm" href="progress.html">See my progress</a>
+    </div>
+  </div>
+
+  <div class="section-head" style="margin-top:40px"><div><p class="eyebrow">Review</p><h2>Answers and explanations</h2></div></div>
+  <div id="reviewList"></div>
+  <div style="margin-top:24px"><button class="btn btn-outline" id="setupAgain" type="button">Back to setup</button></div>
+</div></section>
+
+<section class="section section-alt"><div class="wrap narrow center">
+  <h2>Want a harder challenge?</h2>
+  <p class="muted">Try the daily brain challenge — logic, patterns and number puzzles, one a day.</p>
+  <a class="btn btn-gold" href="brain.html">Go to Brain Training</a>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" style="margin-bottom:12px">
+          <img src="assets/logo.png" alt="Pallimaya logo" width="34" height="34">
+          <span>Pallimaya</span>
+        </a>
+        <p>Practical AI-skill PDF courses in English — character design, prompt engineering,
+        storytelling and animation workflows.</p>
+        <a class="btn btn-outline btn-sm" data-wa="Hi Pallimaya, I would like to know more about your courses.">Chat on WhatsApp</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="courses.html">Available Courses</a></li>
+          <li><a href="upcoming.html">Upcoming Courses</a></li>
+          <li><a href="offers.html">Offers &amp; Discounts</a></li>
+          <li><a href="creators.html">Creator Promotion</a></li>
+          <li><a href="youtube.html">YouTube Videos</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="quiz.html">Quiz Zone</a></li>
+          <li><a href="brain.html">Brain Training</a></li>
+          <li><a href="learn.html">Learn &amp; Explore</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="support.html">Course Support</a></li>
+          <li><a href="delivery.html">PDF Delivery</a></li>
+          <li><a href="testimonials.html">Reviews</a></li>
+          <li><a href="purchase.html">How to Purchase</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="refund.html">Refund Policy</a></li>
+          <li><a href="copyright.html">Copyright &amp; Anti-Piracy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Pallimaya. All rights reserved.</span>
+      <span>PDF courses are for personal use only. Not affiliated with any AI tool provider.</span>
+    </div>
+    <p class="disclaimer">Disclaimer: our courses are learning resources. They do not guarantee income,
+    subscribers, views, brand deals or any specific creative result. Results depend on your own practice,
+    consistency and skill. All product names, logos and trademarks referenced belong to their respective owners.</p>
+  </div>
+</footer>
+<button class="chat-fab" id="chatFab" aria-label="Chat on WhatsApp" aria-expanded="false"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></button>
+<div class="chat-panel" id="chatPanel" role="dialog" aria-label="Help menu">
+  <div class="chat-head">
+    <img src="assets/logo.png" alt="">
+    <div>
+      <div class="t">Pallimaya Help</div>
+      <div class="s">Usually replies on WhatsApp</div>
+    </div>
+    <button data-chat-close aria-label="Close">✕</button>
+  </div>
+  <div class="chat-body">
+    <p class="intro">Pick what you need and we'll continue on WhatsApp.</p>
+    <div class="chat-opts"></div>
+    <form class="chat-ask">
+      <input type="text" placeholder="Type your question…" aria-label="Your question">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <div class="chat-foot">Opens WhatsApp with your message ready to send.</div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>
